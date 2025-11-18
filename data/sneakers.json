@@ -8,9 +8,9 @@
     "releaseDate": "2015-05-30",
     "retailPrice": 160,
     "media": {
-      "thumb": "https://images.stockx.com/images/Air-Jordan-1-Retro-High-OG-Chicago-2015-Product.jpg?fit=fill&bg=FFFFFF&w=140&h=140&fm=jpg&auto=compress",
-      "small": "https://images.stockx.com/images/Air-Jordan-1-Retro-High-OG-Chicago-2015-Product.jpg?fit=fill&bg=FFFFFF&w=400&h=300&fm=jpg&auto=compress",
-      "large": "https://images.stockx.com/images/Air-Jordan-1-Retro-High-OG-Chicago-2015-Product.jpg?fit=fill&bg=FFFFFF&w=1080&h=810&fm=jpg&auto=compress"
+      "thumb": "https://images.unsplash.com/photo-1542291026-7eec264c27ff?auto=format&fit=crop&w=140&h=140&q=80",
+      "small": "https://images.unsplash.com/photo-1542291026-7eec264c27ff?auto=format&fit=crop&w=400&h=300&q=80",
+      "large": "https://images.unsplash.com/photo-1542291026-7eec264c27ff?auto=format&fit=crop&w=1080&h=810&q=80"
     },
     "sizes": ["7", "8", "9", "10", "11", "12"],
     "stockx": {

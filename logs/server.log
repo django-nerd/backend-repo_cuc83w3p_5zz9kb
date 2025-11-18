@@ -1,18 +1,11 @@
 INFO:     Will watch for changes in these directories: ['/home/workspace']
 INFO:     Uvicorn running on http://0.0.0.0:8000 (Press CTRL+C to quit)
-INFO:     Started reloader process [147] using StatReload
-INFO:     Started server process [149]
+INFO:     Started reloader process [220] using StatReload
+INFO:     Started server process [222]
 INFO:     Waiting for application startup.
 INFO:     Application startup complete.
-INFO:     172.20.0.1:34316 - "HEAD / HTTP/1.1" 405 Method Not Allowed
-INFO:     172.20.0.1:43920 - "GET /api/sneakers?sort=trending&limit=24 HTTP/1.1" 200 OK
-INFO:     172.20.0.1:43920 - "GET /api/trending HTTP/1.1" 200 OK
-INFO:     172.20.0.1:43920 - "GET /api/sneakers?sort=trending&limit=24 HTTP/1.1" 200 OK
-INFO:     172.20.0.1:43922 - "GET /api/trending HTTP/1.1" 200 OK
-INFO:     172.20.0.1:43930 - "OPTIONS / HTTP/1.1" 200 OK
-INFO:     172.20.0.1:43936 - "OPTIONS / HTTP/1.1" 200 OK
-INFO:     172.20.0.1:43930 - "GET / HTTP/1.1" 200 OK
-INFO:     172.20.0.1:43936 - "GET / HTTP/1.1" 200 OK
-INFO:     172.20.0.1:43930 - "OPTIONS /test HTTP/1.1" 200 OK
-INFO:     172.20.0.1:43930 - "GET /test HTTP/1.1" 200 OK
-INFO:     172.20.0.1:43936 - "GET /test HTTP/1.1" 200 OK
+INFO:     172.20.0.1:60646 - "HEAD / HTTP/1.1" 405 Method Not Allowed
+INFO:     172.20.0.1:42606 - "GET /api/sneakers?sort=trending&limit=24 HTTP/1.1" 200 OK
+INFO:     172.20.0.1:42606 - "GET /api/trending HTTP/1.1" 200 OK
+INFO:     172.20.0.1:42606 - "GET /api/sneakers?sort=trending&limit=24 HTTP/1.1" 200 OK
+INFO:     172.20.0.1:42614 - "GET /api/trending HTTP/1.1" 200 OK
