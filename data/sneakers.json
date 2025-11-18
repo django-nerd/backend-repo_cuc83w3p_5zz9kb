@@ -1,0 +1,71 @@
+[
+  {
+    "id": "aj1-chicago-2015",
+    "name": "Air Jordan 1 Retro High OG 'Chicago' (2015)",
+    "brand": "Jordan",
+    "model": "Air Jordan 1",
+    "colorway": "Varsity Red/Black-White",
+    "releaseDate": "2015-05-30",
+    "retailPrice": 160,
+    "media": {
+      "thumb": "https://images.stockx.com/images/Air-Jordan-1-Retro-High-OG-Chicago-2015-Product.jpg?fit=fill&bg=FFFFFF&w=140&h=140&fm=jpg&auto=compress",
+      "small": "https://images.stockx.com/images/Air-Jordan-1-Retro-High-OG-Chicago-2015-Product.jpg?fit=fill&bg=FFFFFF&w=400&h=300&fm=jpg&auto=compress",
+      "large": "https://images.stockx.com/images/Air-Jordan-1-Retro-High-OG-Chicago-2015-Product.jpg?fit=fill&bg=FFFFFF&w=1080&h=810&fm=jpg&auto=compress"
+    },
+    "sizes": ["7", "8", "9", "10", "11", "12"],
+    "stockx": {
+      "lastSale": 1450,
+      "lowestAsk": 1390,
+      "highestBid": 1320,
+      "volatility": 0.12,
+      "salesLast72h": 23
+    },
+    "trendingScore": 95
+  },
+  {
+    "id": "af1-triple-white",
+    "name": "Nike Air Force 1 '07 'Triple White'",
+    "brand": "Nike",
+    "model": "Air Force 1",
+    "colorway": "White/White",
+    "releaseDate": "2007-01-01",
+    "retailPrice": 90,
+    "media": {
+      "thumb": "https://images.stockx.com/images/Nike-Air-Force-1-07-White-Product.jpg?fit=fill&bg=FFFFFF&w=140&h=140&fm=jpg&auto=compress",
+      "small": "https://images.stockx.com/images/Nike-Air-Force-1-07-White-Product.jpg?fit=fill&bg=FFFFFF&w=400&h=300&fm=jpg&auto=compress",
+      "large": "https://images.stockx.com/images/Nike-Air-Force-1-07-White-Product.jpg?fit=fill&bg=FFFFFF&w=1080&h=810&fm=jpg&auto=compress"
+    },
+    "sizes": ["6", "7", "8", "9", "10", "11", "12", "13"],
+    "stockx": {
+      "lastSale": 110,
+      "lowestAsk": 105,
+      "highestBid": 98,
+      "volatility": 0.02,
+      "salesLast72h": 210
+    },
+    "trendingScore": 88
+  },
+  {
+    "id": "yeezy-350-v2-zebra",
+    "name": "adidas Yeezy Boost 350 V2 'Zebra'",
+    "brand": "adidas",
+    "model": "Yeezy Boost 350 V2",
+    "colorway": "White/Core Black/Red",
+    "releaseDate": "2017-02-25",
+    "retailPrice": 220,
+    "media": {
+      "thumb": "https://images.stockx.com/images/adidas-Yeezy-Boost-350-V2-Zebra-Product.jpg?fit=fill&bg=FFFFFF&w=140&h=140&fm=jpg&auto=compress",
+      "small": "https://images.stockx.com/images/adidas-Yeezy-Boost-350-V2-Zebra-Product.jpg?fit=fill&bg=FFFFFF&w=400&h=300&fm=jpg&auto=compress",
+      "large": "https://images.stockx.com/images/adidas-Yeezy-Boost-350-V2-Zebra-Product.jpg?fit=fill&bg=FFFFFF&w=1080&h=810&fm=jpg&auto=compress"
+    },
+    "sizes": ["5", "6", "7", "8", "9", "10", "11"],
+    "stockx": {
+      "lastSale": 290,
+      "lowestAsk": 280,
+      "highestBid": 260,
+      "volatility": 0.08,
+      "salesLast72h": 120
+    },
+    "trendingScore": 92
+  }
+]

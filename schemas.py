@@ -12,7 +12,7 @@ Model name is converted to lowercase for the collection name:
 """
 
 from pydantic import BaseModel, Field
-from typing import Optional
+from typing import Optional, List, Dict, Any
 
 # Example schemas (replace with your own):
 
@@ -37,6 +37,29 @@ class Product(BaseModel):
     price: float = Field(..., ge=0, description="Price in dollars")
     category: str = Field(..., description="Product category")
     in_stock: bool = Field(True, description="Whether product is in stock")
+
+# SneakPeak specific schemas
+
+class Design(BaseModel):
+    """Saved sneaker custom designs
+    Collection name: "design"
+    """
+    user_id: Optional[str] = Field(None, description="User identifier (from Supabase or app)")
+    sneaker_id: str = Field(..., description="ID of the base sneaker")
+    name: str = Field(..., description="User-friendly name for the design")
+    layers: Dict[str, Any] = Field(default_factory=dict, description="Keyed color/material selections per part")
+    preview_url: Optional[str] = Field(None, description="Optional preview image URL")
+    is_public: bool = Field(False, description="Whether this design is public")
+
+class Alert(BaseModel):
+    """Price/stock alert subscriptions
+    Collection name: "alert"
+    """
+    user_id: Optional[str] = Field(None, description="User identifier")
+    sneaker_id: str = Field(..., description="ID of the sneaker this alert is for")
+    type: str = Field(..., description="'price_drop' | 'restock'")
+    threshold_price: Optional[float] = Field(None, ge=0, description="Notify when price <= this value")
+    email: Optional[str] = Field(None, description="Email for notifications")
 
 # Add your own schemas here:
 # --------------------------------------------------
